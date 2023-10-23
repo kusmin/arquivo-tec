@@ -1,20 +1,12 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
-  },
+    title: 'Ariflix',
+    description: `Ariflix é uma plataforma de Ensino a Distância (EAD) especializada na área médica, 
+    destinada a estudantes, profissionais e instituições de saúde que buscam aprimorar seus conhecimentos e habilidades. 
+    Com um foco em conteúdo de alta qualidade, flexibilidade e interatividade, Ariflix se posiciona como uma ferramenta indispensável para a formação e atualização médica.`,
+    imgSrc: '/static/images/ariflix.png',
+    href: 'https://ariflix.app.br',
+  }
 ]
 
 export default projectsData

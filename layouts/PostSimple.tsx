@@ -8,6 +8,7 @@ import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import {translations} from "../transalations";
 
 interface LayoutProps {
   content: CoreContent<Blog>
@@ -18,6 +19,7 @@ interface LayoutProps {
 
 export default function PostLayout({ content, next, prev, children }: LayoutProps) {
   const { path, slug, date, title } = content
+
 
   return (
     <SectionContainer>
