@@ -30,11 +30,18 @@ interface LayoutProps {
   children: ReactNode
 }
 
-export default function PostLayout({ content, authorDetails, next, prev, children, locale }: LayoutProps & { locale: string }) {
+export default function PostLayout({
+  content,
+  authorDetails,
+  next,
+  prev,
+  children,
+  locale,
+}: LayoutProps & { locale: string }) {
   const { filePath, path, slug, date, title, tags } = content
   const basePath = path.split('/')[0]
 
-  const t = translations[locale] || translations['en'];
+  const t = translations[locale] || translations['en']
 
   return (
     <SectionContainer>

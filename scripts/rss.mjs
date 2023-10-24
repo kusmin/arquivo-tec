@@ -37,10 +37,10 @@ const generateRss = (config, posts, page = 'feed.xml') => `
 function getFirstValidDate(posts) {
   for (let post of posts) {
     if (post.date) {
-      return new Date(post.date).toUTCString();
+      return new Date(post.date).toUTCString()
     }
   }
-  return null;  // Retorne null ou algum valor padrão se nenhuma data válida for encontrada
+  return null // Retorne null ou algum valor padrão se nenhuma data válida for encontrada
 }
 
 async function generateRSS(config, allBlogs, page = 'feed.xml') {
@@ -52,7 +52,7 @@ async function generateRSS(config, allBlogs, page = 'feed.xml') {
   }
 
   if (publishPosts.length > 0) {
-    const slugger = new GithubSlugger();
+    const slugger = new GithubSlugger()
     for (const tag of Object.keys(tagData)) {
       const filteredPosts = allBlogs.filter((post) =>
         post.tags.map((t) => slugger.slug(t)).includes(tag)

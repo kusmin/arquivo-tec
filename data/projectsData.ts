@@ -6,7 +6,7 @@ const projectsData = [
     Com um foco em conteúdo de alta qualidade, flexibilidade e interatividade, Ariflix se posiciona como uma ferramenta indispensável para a formação e atualização médica.`,
     imgSrc: '/static/images/ariflix.png',
     href: 'https://ariflix.app.br',
-  }
+  },
 ]
 
 export default projectsData
