@@ -1,6 +1,7 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import Typeboot from '@/components/Typeboot'
 
 export default function Footer() {
   return (
@@ -25,6 +26,7 @@ export default function Footer() {
           <Link href="https://github.com/kusmin/history-tec">Tailwind Nextjs Theme</Link>
         </div>
       </div>
+      <Typeboot/>
     </footer>
   )
 }
