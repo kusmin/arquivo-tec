@@ -144,9 +144,11 @@ export default makeSource({
     rehypePlugins: [
       rehypeSlug,
       rehypeAutolinkHeadings,
-      rehypeKatex,
+      // @ts-ignore
+      rehypeKatex, // @ts-ignore
       [rehypeCitation, { path: path.join(root, 'data') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
+      // @ts-ignore
       rehypePresetMinify,
     ],
   },
