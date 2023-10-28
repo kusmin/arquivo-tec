@@ -26,7 +26,7 @@ export default function Footer() {
           <Link href="https://github.com/kusmin/history-tec">Tailwind Nextjs Theme</Link>
         </div>
       </div>
-      <Typeboot/>
+      <Typeboot />
     </footer>
   )
 }
