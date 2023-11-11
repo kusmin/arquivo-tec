@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "arquivo-tec",
   "version": "2.0.2",
   "private": true,
   "scripts": {
@@ -16,6 +16,7 @@
     "@tailwindcss/forms": "^0.5.4",
     "@tailwindcss/typography": "^0.5.9",
     "@tinacms/cli": "^1.5.31",
+    "@typebot.io/js": "^0.2.15",
     "@typebot.io/nextjs": "^0.2.15",
     "@vercel/analytics": "^1.1.1",
     "autoprefixer": "^10.4.13",
