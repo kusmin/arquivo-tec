@@ -5081,9 +5081,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typebot.io/js@npm:^0.2.15":
-  version: 0.2.15
-  resolution: "@typebot.io/js@npm:0.2.15"
+"@typebot.io/js@npm:^0.2.19":
+  version: 0.2.19
+  resolution: "@typebot.io/js@npm:0.2.19"
   dependencies:
     "@stripe/stripe-js": 1.54.1
     "@udecode/plate-common": 21.1.5
@@ -5091,7 +5091,7 @@ __metadata:
     marked: 9.0.3
     solid-element: 1.7.1
     solid-js: 1.7.8
-  checksum: 73d5b845e0534851f4604dc77f33bc6b1275688941de22a96ea2ac10b841c83f454290579a817f6290a5341f59308414caa1a04bbab43a996d3be2bc5679c3f7
+  checksum: c79daa43df475103b9927af433dd3d440466f85b582d583716d4357906aacb3eff905b6f0cd61c1a20344e0276ce376a66b04094db21c3fe641d1bf93f2a0675
   languageName: node
   linkType: hard
 
@@ -6751,7 +6751,7 @@ __metadata:
     "@tailwindcss/forms": ^0.5.4
     "@tailwindcss/typography": ^0.5.9
     "@tinacms/cli": ^1.5.31
-    "@typebot.io/js": ^0.2.15
+    "@typebot.io/js": ^0.2.19
     "@typebot.io/nextjs": ^0.2.15
     "@types/mdx": ^2.0.9
     "@types/react": ^18.2.37
