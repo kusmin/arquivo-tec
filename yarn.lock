@@ -5098,13 +5098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typebot.io/nextjs@npm:^0.2.15":
-  version: 0.2.23
-  resolution: "@typebot.io/nextjs@npm:0.2.23"
+"@typebot.io/nextjs@npm:^0.2.24":
+  version: 0.2.24
+  resolution: "@typebot.io/nextjs@npm:0.2.24"
   peerDependencies:
     next: 12.x || 13.x
     react: 18.x
-  checksum: 0c451597baebb4705a4eac10c2aa099b975fd6d2fffa04777b0b0d0c98d3653c0acd1a7d36224a82bcb91cd97630373d48e2a271afbd314f638576cda9c02a88
+  checksum: 9429ac4fa4a4f615f46e9bcb6d54e89fe9ad813a53868ac9fb3563821c29642c721a2dc74d9d1ffc68ce2445af1d0cc3c4d280b32dc1d1ee03845c5b5cd10660
   languageName: node
   linkType: hard
 
@@ -6755,7 +6755,7 @@ __metadata:
     "@tailwindcss/typography": ^0.5.9
     "@tinacms/cli": ^1.5.36
     "@typebot.io/js": ^0.2.23
-    "@typebot.io/nextjs": ^0.2.15
+    "@typebot.io/nextjs": ^0.2.24
     "@types/mdx": ^2.0.9
     "@types/react": ^18.2.37
     "@typescript-eslint/eslint-plugin": ^6.10.0
